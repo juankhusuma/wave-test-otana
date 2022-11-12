@@ -10,12 +10,12 @@
   </head>
 
   <body id="page">
-    <ul class="skip-links">
-      <li><a href="#nav">Skip to main navigation</a></li>
-      <li><a href="#main">Skip to main content</a></li>
+    <ul class="skip-links" aria-label="Skip links">
+      <li ><a href="#nav">Skip to main navigation</a></li>
+      <li ><a href="#main">Skip to main content</a></li>
     </ul>
 
-    <header class="masthead">
+    <header class="masthead" aria-label="Page Header">
       <div class="container">
         <a class="site-title" href="#">
           <strong class="logo" href="#">
@@ -24,14 +24,14 @@
               src="./images/madd-logo.svg"
               alt="MADD Logo"
             />
-            <span class="logo__text">Tabbing, Focus, &amp; Accessibility</span>
+            <span class="logo__text" aria-hidden="true">Tabbing, Focus, &amp; Accessibility</span>
           </strong>
         </a>
-        <nav id="nav">
+        <nav id="nav" aria-label="page navigation">
           <ul>
-            <li><a href="#resources">Resources</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#newsletter">Newsletter</a></li>
+            <li><a aria-label="naviagation link resources" href="#resources">Resources</a></li>
+            <li><a aria-label="naviagation link f a q" href="#faq">FAQ</a></li>
+            <li><a aria-label="naviagation link newsletter" href="#newsletter">Newsletter</a></li>
           </ul>
         </nav>
       </div>
@@ -192,22 +192,22 @@
               </div>
               <div class="form-unit">
                 <label for="fName">First Name</label>
-                <input type="text" id="fName" name="fName" />
+                <input aria-label="full name input" type="text" id="fName" name="fName" />
               </div>
               <div class="form-unit">
                 <label for="lName">Last Name</label>
-                <input type="text" id="lName" name="lName" />
+                <input aria-label="last name input" type="text" id="lName" name="lName" />
               </div>
               <div class="form-unit">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" />
+                <input aria-label="email input" type="email" id="email" name="email" />
               </div>
               <div class="form-unit">
                 <label for="tel">Phone</label>
-                <input type="tel" id="tel" name="tel" />
+                <input aria-label="phone number input" type="tel" id="tel" name="tel" />
               </div>
               <div class="form-unit full">
-                <input type="submit" value="Sign Up" />
+                <input aria-label="submit form button" type="submit" value="Sign Up" />
               </div>
             </form>
             <div class="sign-up__image"></div>
@@ -229,11 +229,11 @@
             <li><a href="#newsletter">Newsletter</a></li>
           </ul>
         </nav>
-        <small>&copy; 2022 Algonquin College</small>
+        <small aria-label="algonquin college 2022 copyright">&copy; 2022 Algonquin College</small>
       </div>
     </footer>
 
-    <a href="#page" class="to-top">To Top</a>
+    <a href="#page" class="to-top" aria-label="to top">To Top</a>
 
     <script src="./js/main.js"></script>
   </body>
