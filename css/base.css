@@ -1,5 +1,6 @@
 :root {
-    --color-secondary: #36BF7F;
+    --color-secondary: #62f3af;
+    --color-text-secondary: #268458;
     --color-secondary-pale: #def4e9;
     --color-primary: #394A59;
     --color-accent: #D96666;
@@ -598,7 +599,7 @@ h6 {
 
 .card__title {
     font-size: 1.325rem;
-    color: var(--color-secondary);
+    color: var(--color-text-secondary);
     margin-bottom: .5rem;
     line-height: 1.3
 }
